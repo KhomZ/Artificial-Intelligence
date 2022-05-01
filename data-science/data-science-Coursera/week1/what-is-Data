@@ -1,0 +1,11 @@
+So, what do we mean by data? 
+
+The word "data" is often used interchangeably with information. 
+From an information theoretic perspective, the degree to which data is informative depends on how unexpected it is to the person receiving it. However, in this course, we won't get ourselves bogged down on that difference. 
+
+In this course, we will refer to data as a collection of factual information that can be used by a computer as a basis for calculation. 
+
+Data can be represented either as a number such as age or a price, or as a category such as hair color or type of fruit. Data becomes particularly interesting when we're dealing with large volumes of it. 
+Take information on the hair color and age of a handful of people. With only a few examples, not much can be said about how using only these two features gives you any information. But if this is scaled up to 10,000 people, then patterns emerge in the data which can be useful to, for example, a marketing company that's trying to market new hair care products. They might use this to decide which age group they should market their products to. This also shows the usefulness of having more than one dimension or data feature about whatever object it is we're looking at. Our two dimensions here are hair and age. Using only a single dimension such as hair, would only be of limited use. 
+
+Data science allows us to explore the interactions between different data features and to find patterns across large populations, is what computer science and statistics joined together to create a powerful combination.

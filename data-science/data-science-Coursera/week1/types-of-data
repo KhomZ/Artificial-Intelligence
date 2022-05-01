@@ -1,0 +1,9 @@
+There are two broad types of data, categorical and numeric. 
+
+Categorical is when a textual description or label is used to represent specific categories of objects. Categories include things like primary colors: red, green, and blue; or fruit: banana, apple, orange. 
+
+Numeric data can be continuous. Something that is measured on a continuous scale, like air temperatures at the North Pole or the weight of a cow. 
+
+Numeric data can also be discreet. Something that is countable like the number of beans in a jar, or the number of people who survived the sinking of the Titanic. 
+
+Ultimately, all data is stored on a computer as a discrete binary number. This means that when we're working with categorical data or continuous numeric data, the computer is actually mapping this to some discrete value behind the scenes. But we don't need to concern ourselves with that here. For practical purposes, the data we will be dealing with in our examples will be continuous numeric data.
