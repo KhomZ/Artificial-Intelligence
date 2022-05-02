@@ -1,0 +1,56 @@
+As mentioned in previous section, data clustering is a method of unsupervised machine learning, where data is separated into groups or clusters based on some similarity measure.
+
+K-Means clustering is probably the most common example of this.
+To show how it works, it's probably best to start with an example.
+
+Imagine a one-dimensional axis, a line representing income.
+Each dot shown in this line represents a population of people with that level of income.
+Say, we want to uncover some pattern in this data.
+
+Specifically, can we find out something about the relationships between these people based only on their level of income?
+
+Using traditional statistics, we can see something that the overall average income is 20,000 pounds. But this information fails to capture the fact that there are clearly two groupings of income here, which we might label as wealthy and everyone else.
+The K-means algorithm has five basic steps and works as follows:::
+
+Step 1.
+First, select the no. of clusters we want to look for.
+This is the k in K-means.
+here we choose k equals two.
+The algorithm then randomly selects k points on our data axis.
+Note that it doesn't matter that these points do not necessarily correspond to existing data.
+These points are called our data centres or centroids.
+
+Step 2.
+The distance from each data point to each of our k centroids is calculated.
+In this case, distance is simply a measure of the difference in income between the points.
+
+Step 3.
+Clusters are formed by assigning each data point to either centroid one or two, depending on which is closest.
+
+Step 4.
+This is the update step.
+The average value calculated over the members of each cluster is then set as the new centroid.
+We ignore and dispense with the previous centroid value.
+
+Step 5.
+Finally, step 5.
+We then recursively run steps 2 to 4 recalculating the centroids until eventually the centroid positions do not change.
+When the centroids remain stable like this, the algorithm is said to have converged.
+
+In our example, we were able to discover two clusters.
+But if we were to say k equals to three looking for three clusters, we can find another pattern in the data, which we can then map to wealthy, average, and poor.
+
+Most useful cases involve more than one dimension or feature.
+The same basic principle can be applied to two-dimensions.
+The distance measure between points here might be a simple Euclidean distance.
+It turns out that K-means can be applied to any number of dimensions, provided there is sufficient data to train the algorithm.
+
+However, for the purposes of easy visualization, we will stick to no more than two dimensions in this module.
+
+K-means converges to what is known as a local minimum.
+This basically means that although the algorithm seems to have found the best groupings.
+
+A better result may yet be found if the algorithm were to be started again with different initial centroids positions.
+
+It turns out that the selection of initial centroids in step 1 is crucial to finding a good solution.
+But finding the so-called global optimum clustering is a hard problem, and it's out of the scope of this lesson.
