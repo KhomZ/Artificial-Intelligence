@@ -1,0 +1,34 @@
+So, what is machine learning? 
+
+Machine learning is the term used to describe a series of processes 
+in which a computer learns from evidence or learns from lots of examples of data to help it to certain data-based tasks. 
+
+Common to all machine learning algorithms is a training step. 
+Training is where the computer learns something about the world or a particular problem, based on data drawn from that world. 
+This may allow the computer to build some internal representation, or model, about that world. 
+Alternatively, the computer can be trained to search for patterns in the data to help structure the world. 
+The outcome of training is an algorithm that can be used for a variety of tasks such as predicting future events, automatically recognising objects, or structuring data in a manageable way. 
+Here are a few examples of how machine learning maybe me used. 
+
+Machine learning can be used to predict the future. 
+Take earthquake prediction. 
+This is important applications in predicting natural disasters and helping people plan to minimise the impact. 
+When trained on information such as time, location, and magnitude of historical earthquakes in a region, a machine learning algorithm may be used by geologists to work out the probability of another earthquake occurring at a certain time and place in the future. 
+This sort of machine learning is known as regression. Where continuous data such as time or magnitude is used to train a model that outputs a continuous valued output such as the probability of earthquake. 
+
+Machine learning can also be used to recognise and classify previously unseen objects. 
+Given a large database of possible road signs, 
+a machine learning algorithm in a self-driving car may be able to correctly recognise a stop sign in an unfamiliar location or recognise a stop sign that is drawn slightly different from the others it's seen. 
+This information can be used to direct the car to take appropriate action, such as stop. 
+This sort of machine learning where the output is a discrete label, a stop sign, is known as classification. 
+
+Machine learning can also be used to structure lots of data into manageable chunks or clusters. 
+Information from thousands of people's shopping habits for example, can be used to link some groups of those people into specific clusters for more targeted marketing. 
+Clustering is an example of unsupervised learning, which we'll talk more about in a moment. It allows us to find patterns of behavior in data, based on similarities in that data. 
+
+The same approach may make use of data drawn from social media posts to automatically cluster people into groups of similar political affiliation, or use sequences of information from samples of DNA to cluster people into groups with similar genetics. 
+The algorithms themselves may be the same but depending on the data used, the uses can vary enormously, as can the impact of their use. 
+In summary, machine learning is really just about building algorithms that can help a computer to learn from a body of data 
+so that may make sense or make predictions about new and previously unseen data. 
+
+Machine learning is when a machine learns from examples.

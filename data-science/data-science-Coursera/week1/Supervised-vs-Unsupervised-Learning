@@ -1,0 +1,52 @@
+Machine Learning algorithms fall into two categories:
+1. supervised learning
+2. unsupervised learning
+
+What do I mean by supervised?
+Consider a parent teaching an infant the difference between dogs and cats.
+
+Everytime the child sees a dog, the parent will point out "dog", and simirlarly for a cat.
+
+After seeing lots of instances of the two animals, the child will have learnt to distinguish between them.
+
+All that is needed are lots of examples of data, images of animals that had been pre-labelled as either cat or dog by the child supervisor or parent.
+
+Supervised learning is essentially this, providing the computer with lots of training data images of dogs and cats in this example, alongside the class labels that we have assigned either dog or cat.
+
+When completely new data is then presented, the trained algorithm can infer the most likely corresponding class or value.
+
+For example, given a completely unknown animal our trained algorithm, will make a decision on whether it's either a dog or a cat.
+
+This is an example of classification, where a single label is output.
+
+
+Alternatively, the algorithm can gice some measure indicating the degree of dogishness, or castishness. 
+
+This is an example of regression, or a continuous valued output or a probability is given.
+
+
+
+Upsupervised learning is when we don't know beforehand the structure of the data.
+
+We don't use any labels.
+In our child learning example, teh parent never tells the child what it is they're looking at.
+
+Perhaps they don't know themselves.
+
+The child may be exposed to lots of dogs and cats, but they have to learn the similarities and differences beteen examples of the creatures based on some other criteria.
+
+Overtime, the child may well learn traditional dichotomy dog versus cat.
+
+But eaually, they could form a different clustering.
+
+For example, degree of furriness versus non furry. 
+They might not even be limited to just two classes or clusters.
+
+Perhaps, the data suggests that three or more clusters may be appropriate.
+
+For example, if the similarity criteria was color of fur.
+This division of data into groups based on some measure of similarity is why this type of unsupervised learning is referred to as data clustering.
+
+Data clustering is a very powerful tool and exemplifies many of the most important aspects of machine learning and data science.
+
+In the remainder of this course, we will explore clustering in greater detail, and in particular, the most common and useful clustering algorithm, K-means clustering.
