@@ -69,3 +69,17 @@ For example, many window managers allow the screen background to be specified as
 The colors produced by a gradient vary continuously with position, producing smooth color transitions.
 
 
+
+
+Real-time license plate detection for non-helmeted motorcyclist using YOLO
+
+https://www.sciencedirect.com/science/article/pii/S2405959519304187
+
+
+
+
+
+
+
+Aniruddh Puranic, Deepak K. T, Umadevi V
+ 
