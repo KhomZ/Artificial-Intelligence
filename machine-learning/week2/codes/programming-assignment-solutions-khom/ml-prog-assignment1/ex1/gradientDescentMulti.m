@@ -9,10 +9,6 @@ J_history = zeros(num_iters, 1);
 
 for iter = 1:num_iters
 
-    temp = X * theta;
-    error = temp - y;
-    newX = error' * X;
-    theta = theta - ((alpha/m) * newX');
     % ====================== YOUR CODE HERE ======================
     % Instructions: Perform a single gradient step on the parameter vector
     %               theta. 
@@ -21,10 +17,8 @@ for iter = 1:num_iters
     %       of the cost function (computeCostMulti) and gradient here.
     %
 
-
-
-
-
+    error = (X * theta) - y;
+    theta = theta - ((alpha/m) * X'*error);
 
 
 
