@@ -1,0 +1,29 @@
+Coursera: Machine Learning (Week 3) Quiz - Logistic Regression | Andrew NG
+https://www.apdaga.com/2019/10/coursera-machine-learning-week-3-quiz-logistic-regression.html
+
+https://github.com/atinesh-s/Coursera-Machine-Learning-Stanford/blob/master/Week%203/Quiz%206.pdf
+
+https://www.apdaga.com/2018/06/coursera-machine-learning-week-3.html
+
+https://github.com/mGalarnyk/datasciencecoursera/blob/master/Stanford_Machine_Learning/Week3/week3quiz1.md
+
+https://github.com/mGalarnyk/datasciencecoursera/blob/master/Stanford_Machine_Learning/Week1/data/logisticQ5part1.png
+
+
+https://www.apdaga.com/2019/10/coursera-machine-learning-week-3-quiz-logistic-regression.html
+
+
+https://irosyadi.gitbook.io/irosyadi/course/machine-learning-andrewng-quiz
+
+
+https://github.com/zhanwen/machine-learning/blob/master/coursera/week3/logistic_regression.md
+
+
+
+
+
+
+ALL in One
+https://github.com/mGalarnyk/datasciencecoursera/blob/master/Stanford_Machine_Learning/Week3/week3quiz1.md
+
+
