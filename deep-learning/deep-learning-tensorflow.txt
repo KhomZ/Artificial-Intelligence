@@ -1,0 +1,3 @@
+Deep Learning with tensorflow 2.0, Keras and Python
+
+Flatening
